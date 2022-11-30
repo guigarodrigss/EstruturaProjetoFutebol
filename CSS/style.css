@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+    font-family: Roboto,sans-serif;
+    height: 100vh;
+}
+
+button, a , ion-icon{
+    cursor: pointer;
+}
+
+header {
+    background-color: #fff;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 42px;
+}
+
+header #logo {
+    width: 148px;
+    color: #78779a;
+    font-weight: bold;
+}
+
+header #logo .logo-marca {
+    color: #EE8833;
+}
+
+header #logo .logo-marca > span {
+    color: #003087;
+}
+
+
+header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul li {
+    height: 100%;
+    width: 242px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+header nav ul li:hover{
+    background-color: rgba(228, 228, 228, 0.43);
+    border-bottom: 3px solid #ef8128;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+
+#navigation-rodadas {
+    background-color: #EE8833;
+    height: 52px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 42px;
+}
+
+#navigation-rodadas .content-rodada {
+    width: 482px;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation-rodadas .content-rodada  h3 {
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#navigation-rodadas .content-rodada  ion-icon {
+    color: rgb(240, 240, 240);
+    font-size: 2rem;
+}
+
+#navigation-rodadas .content-rodada  ion-icon:hover {
+    color: #fff;
+}
+
+
+.link-user{
+    outline: none;
+    color:#383838;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.link-user ion-icon {
+    font-size: 2rem;
+    color: #383838;
+}
+
+.item-active{
+    background-color: rgba(228, 228, 228, 0.356);
+    border-bottom: 3px solid #ef8128;
+}
+
+main{
+    max-width: 48em;
+    margin: 0 auto;
+    height: 100%;
+}
+
+main .big{
+    height: 381px;
+}
+
+main .box-container .top-box {
+    height: 12%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 12px;
+}
+
+main .box-container .top-box h4 {
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+main .box-container .bottom-box {
+    border-top: 2px solid #dbdbdb;
+    /* background-color: rgba(226, 226, 226, 0.471); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:22px 0px;
+} 
+
+main .big .bottom-box {
+    height: 88%;
+}
+
+main .box-container .bottom-box .container-placar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main .box-container .bottom-box .box-placar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .box-container .bottom-box .box-placar .content-placar {
+    display: flex;
+    align-items: center;
+}
+
+main .box-container .bottom-box .box-placar .content-placar .versus {
+    margin: 0px 42px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+main .box-container .bottom-box .box-placar .content-placar > div {
+    display: flex;
+    align-items: center;
+}
+
+main .box-container .bottom-box .box-placar .content-placar .time {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+main .box-container .bottom-box .box-placar .content-placar .bandeira {
+    width: 72px;
+    height: 72px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 50%;
+    margin: 0px 42px;
+}
+
+main .box-container .bottom-box .box-placar .content-placar .placar {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main .box-container .bottom-box .box-placar .content-grupo {
+    font-size: .9rem;
+    padding-bottom: 12px;
+}
+
+main .box-container .bottom-box .box-placar button {
+    margin-top: 12px;
+    padding: 6px 22px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(165, 165, 165, 0.708);
+    color: #fff;
+}
+
+
+main .box-container .bottom-box .content-palpite {
+    background-color: rgba(198, 198, 198, 0.36);
+    width: 292px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+main .box-container .bottom-box .content-palpite h5 {
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main .box-container .bottom-box .content-palpite strong {
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+main .box-container .bottom-box .content-palpite .content-placar-palpite {
+    display: flex;
+}
+
+main .box-container .bottom-box .content-palpite .content-placar-palpite .placar-palpite {
+    padding: 0px 22px;
+}
+
+main .box-container .bottom-box .content-palpite .content-placar-palpite .placar-palpite , .time-palpite {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+footer{
+    padding: 32px 0px;
+}
